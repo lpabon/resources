@@ -4,3 +4,4 @@ LABEL description="CSI Mock plugin"
 
 RUN apk add --no-cache git
 RUN go get github.com/thecodeteam/gocsi/mock
+RUN go get github.com/thecodeteam/gocsi/csc
