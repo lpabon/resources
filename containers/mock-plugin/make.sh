@@ -6,4 +6,4 @@ docker run --privileged -v $PWD:/host mocktest:builder cp /go/bin/csc /host/csc
 sudo chown $USER mock
 sudo chown $USER csc
 docker build -t docker.io/k8scsi/mock-plugin .
-rm -f mock
+rm -f mock csc
