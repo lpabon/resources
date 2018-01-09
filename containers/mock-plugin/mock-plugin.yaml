@@ -3,7 +3,13 @@ kind: DaemonSet
 metadata:
   name: mock-plugin
 spec:
+  selector:
+    matchLabels:
+      name: mock-plugin
   template:
+    metadata:
+      labels:
+        name: mock-plugin
     spec:
       containers:
       - name: mock-plugin
