@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: mock-plugin
-        image: k8scsi/mock-plugin
+        image: quay.io/k8scsi/mock-plugin
         env:
           - name: CSI_ENDPOINT
             value: unix:///socket/mock-csi-endpoint.sock
