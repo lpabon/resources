@@ -3,7 +3,7 @@
 ## Building
 Just run `./make.sh`
 
-## Using for Debuggign a CSI driver
+## Using for Debugging a CSI driver
 Deploy using `mock-plugin.yaml`. This will create a DaemonSet which will install
 the mock-plugin container to each system. You can then go to the system with your
 CSI driver and run `csc` commands. Here is an example:
