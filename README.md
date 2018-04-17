@@ -1,4 +1,4 @@
 # Resources
 
-Currently only contains the resources debugging container
-quay.io/k8scsi/mock-plugin.
+* Resources debugging container quay.io/k8scsi/mock-plugin.
+* Documentation of kubernetes-csi repositories for developers in [doc/](doc).
